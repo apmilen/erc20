@@ -3,6 +3,12 @@ tags: []
 layout:
   sol_sources: contracts
   build_dir: build
+  packages_directory: .dapple/packages
 dependencies: {}
 ignore: []
 name: erc20
+dapple_version: 0.8.3
+environments:
+  develop:
+    objects: {}
+    type: internal
